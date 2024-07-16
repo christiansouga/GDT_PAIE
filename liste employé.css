@@ -1,0 +1,72 @@
+*::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.liste-employé{
+    height: 450px; 
+    width: 720px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    position: sticky;
+    
+
+}
+
+
+.tableau-style{
+    border-collapse: collapse;
+    height: 0px;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);    
+    cursor: pointer;
+    margin:  auto;
+}
+@media screen and (max-width: 900px) { 
+ 
+.tableau-style{
+    width: 100%;
+}
+ }
+ tr{
+    transition: all 0.2s ease-in;
+ }
+thead tr{
+    background-color: #0080FF;
+    color: #ffff;
+    text-align: left;
+
+}
+th,td{
+    padding: 15px 20px;
+}
+tbody tr, td, th {
+    border: 1px solid #0080FF;
+    
+}
+tbody tr:nth-child(even){
+    background-color: #ddd;
+}
+
+
+tr:hover{
+   
+    transform: scale(1.01);
+    
+}
+#row_1 th:first-child {
+    display: none;
+}
+.myemployeeRow{
+    display: none;
+}
+.pay{
+    text-decoration: none;
+    
+}
+
+
+  

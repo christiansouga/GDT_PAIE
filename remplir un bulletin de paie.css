@@ -1,0 +1,143 @@
+*::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+input[type="date"]{
+    height: 30%;
+   padding: 10px;
+   text-align: center;
+   border: none;
+   background: linear-gradient(125deg,#0080FF,#EAECEE);
+   border-radius: 10px;
+ 
+   
+}
+
+.period{
+    width: 200px;
+    height: 90px;
+}
+/* début style tableau */
+.liste-employé{
+    height: 450px; 
+    width: 900px;
+    margin-left: 240px;
+    margin-right: 10px;
+    margin-top: 50px;
+   
+}
+
+.tableau-style{
+    border-collapse: collapse;
+    height: 0px;
+    width: 100%;
+    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.2);     */
+    cursor: pointer;
+    margin:  auto;
+}
+@media screen and (max-width: 900px) { 
+ 
+.tableau-style{
+    width: 100%;
+}
+ }
+
+thead tr{
+    background-color: #0080FF;
+    color: #ffff;
+    text-align: left;
+    text-align: center;
+
+}
+th,td{
+    padding: 0px 0px;
+}
+tbody tr, td, th {
+    border: 2px solid #0080FF;
+    
+}
+/* tbody tr:nth-child(even){
+    background-color: #ddd;
+} */
+
+/* 
+tr:hover{
+   
+    transform: scale(1.01);
+    
+} */
+.caché{
+    border-left: hidden;
+    border-top:'' ;
+    border-bottom: hidden;
+    background: white;
+    cursor: auto;
+    box-shadow: none
+    
+}
+input{
+width: 100%;
+}
+.entete{
+    background-color:#17A589  ;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.submit{
+    position: relative;
+}
+
+.border-hidden{
+    border-right: hidden;
+    border-bottom: hidden;
+}
+.last-cell{
+    border-right: hidden;
+    border-top: hidden;
+}
+.four-cell{
+    border-bottom: hidden;
+}
+/* fin style tableau */
+
+/* style bouton*/
+
+.btn{
+    margin-top: 10px;
+    position: relative;
+    
+}
+.button{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+.net-percevoir {
+    background: #EAECEE ;
+    text-align: center;
+}
+.salaire-brut{
+    background-color: #EAECEE;
+    text-align: center;
+}
+.td-contenu{
+    text-align: center;
+}
+input[type="text"]{
+    outline: none;
+}
+input[type="number"]{
+    outline: none;
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.myID{
+    display: none;
+}

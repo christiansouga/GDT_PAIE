@@ -1,0 +1,36 @@
+*::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg, #27d86c, #26caf8, #c625d0);
+}
+
+.container{
+    margin-top: 150px;
+}
+.form-control{
+    width: 500px;
+    border: 1px solid;
+    margin-bottom: 10px;
+  
+}
+.btn {
+    margin-right: 20px;
+}
+.custom-div {
+    width: 200px;
+    height: 40px;
+    border: 1.5px solid;
+    border-radius: 3px;
+    background: #ddd;
+    margin-top: 3px; /* Espacement de 3px par rapport à l'élément précédent */
+    margin-left: 550px;
+}
+.irpp{
+    margin-left: 300px;
+}
+h2{
+    color: white;
+}
